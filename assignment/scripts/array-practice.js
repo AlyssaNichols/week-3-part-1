@@ -12,7 +12,6 @@ console.log('Animals are: ', animalArray);
 
 // 1.b. TODO: Log your array of foods to the console with a message, similar 
 //      to the example above
-
 console.log('Some of my favorite foods are: ', favoriteFoods);
 
 // 2. Array.length - tells you how many items are in the array
@@ -84,6 +83,8 @@ console.log('The foods are now', favoriteFoods);
 // 4.e (STRETCH) TODO: Replace the second food in your array
 //      with another one of your favorite foods.
 //      Then log the updated array.
+favoriteFoods[1] = 'eggs';
+console.log('updated favorite foods are:', favoriteFoods)
 
 // 4.f (STRETCH) TODO: Sort your favoriteFoods array
 //     in reverse alphabetical order. Log the array.
@@ -97,3 +98,5 @@ console.log('The foods are now', favoriteFoods);
 //     Then log the new array.
 //     It should look something like:
 //     ['pizza', 'pasta', 'fish', 'cat', 'bird', 'dog']
+let favoriteFoodsAndAnimals = favoriteFoods.concat(animalArray);
+console.log(favoriteFoodsAndAnimals);
